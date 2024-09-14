@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+    color: green;
+}
+
+
+/* Slider Container */
+.slider-container {
+    max-width: 1200px; /* Adjust the max width as needed */
+  }
+  
+  /* Custom Slick Dots */
+  .slick-dots li button:before {
+    color: #000; /* Dot color */
+  }
+  
+  /* Custom Slick Arrows */
+  .slick-prev {
+    left: 10px;
+    z-index: 1;
+  }
+  
+  .slick-next {
+    right: 10px;
+    z-index: 1;
+  }
+  
+  .slick-prev, .slick-next {
+    width: 30px;
+    height: 30px;
+    background-color: #ddd; /* Arrow background color */
+    border-radius: 50%;
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    font-size: 20px;
+    color: #333; /* Arrow color */
+  }
+  
